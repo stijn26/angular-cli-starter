@@ -1,4 +1,4 @@
-export class LearnBewireAngular2Page {
+export class AppPage {
   navigateTo() {
     return browser.get('/');
   }

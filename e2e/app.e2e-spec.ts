@@ -1,14 +1,14 @@
-import { LearnBewireAngular2Page } from './app.po';
+import { AppPage } from './app.po';
 
-describe('learn-bewire-angular2 App', function() {
-  let page: LearnBewireAngular2Page;
+describe('Angular-cli-starter App', function() {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new LearnBewireAngular2Page();
+    page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying Starter app', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Starter app');
   });
 });
