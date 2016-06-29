@@ -30,11 +30,8 @@ build/Release
 node_modules
 jspm_packages
 
-# Temp map
 tmp
-
-# Dist map
-
+dist
 
 # Optional npm cache directory
 .npm
