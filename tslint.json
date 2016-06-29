@@ -83,7 +83,7 @@
         "variable-declaration": "nospace"
       }
     ],
-    "variable-name": false,
+    "variable-name": true,
     "whitespace": [
       true,
       "check-branch",

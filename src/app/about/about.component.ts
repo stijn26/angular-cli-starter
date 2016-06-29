@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['about.component.css']
 })
 export class AboutComponent {
-  title = 'About page!';
+  title: string = 'About page!';
 }

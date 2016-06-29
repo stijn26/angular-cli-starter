@@ -9,5 +9,5 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
   directives: [ROUTER_DIRECTIVES]
 })
 export class AppComponent {
-  title = 'Starter app';
+   title: string = 'Starter app';
 }

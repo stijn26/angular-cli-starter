@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['home.component.css']
 })
 export class HomeComponent {
-  title = 'Home page!';
+  title: string = 'Home page!';
 }
