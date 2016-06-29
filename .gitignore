@@ -34,7 +34,7 @@ jspm_packages
 tmp
 
 # Dist map
-dist
+
 
 # Optional npm cache directory
 .npm
