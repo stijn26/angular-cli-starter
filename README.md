@@ -2,6 +2,10 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.8.
 
+## Install instructions
+1. Pull the project
+2. Run npm install
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -22,6 +26,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
 Before running the tests make sure you are serving the app via `ng serve`.
 
+## Sass
+
+U can just write sass in a .sass file, Angular-cli automatically compiles the code.
+Remember to include a .css file and not a .sass file!
+Example: "styleUrls: ['about.component.css']" instead of "styleUrls: ['about.component.sass']"
+
 ## Deploying to Github Pages
 
 Run `ng github-pages:deploy` to deploy to Github Pages.
@@ -29,3 +39,4 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
