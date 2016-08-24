@@ -1,12 +1,14 @@
 # Angular-cli-starter
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.8.
++This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.11-webpack.2
 
 ## Install instructions
+
 1. Clone the project
 2. Run npm install
 
 ## Linter
+
 Tslint needs to be installed globally: `npm install -g tslint`
 When using Visual Code, install the tslint addon to have a instant-linter when writing code.
 Other IDE's should have a similar addon.
@@ -15,11 +17,12 @@ The linter checks that lines are consistently indented. However it doesn't check
 The indent space will be 2 spaces.
 
 ## Development server
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/route/class`.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
 ## Build
 
@@ -37,8 +40,6 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Sass
 
 U can just write sass in a .sass file, Angular-cli automatically compiles the code.
-Remember to include a .css file and not a .sass file!
-Example: "styleUrls: ['about.component.css']" instead of "styleUrls: ['about.component.sass']"
 
 ## Deploying to Github Pages
 
